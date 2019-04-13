@@ -16,9 +16,10 @@
     <Copyright>Copyright © Mohammad Javad Ebrahimi 2019</Copyright>
     <Description>Simplified multi-language POCO localization for ASP.NET Core</Description>
     <PackageTags>ASP.NET Core Localization NopLocalization Mvc AspNetMvc AspNetCore EntityFramework EntityFrameworkCore EF EfCore Globalization Multi-Language MultiLanguage</PackageTags>
-    <PackageIconUrl>httsp://github.com/mjebrahimi/NopLocalization/blob/master/docs/icon.png</PackageIconUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/mjebrahimi/NopLocalization/master/docs/icon.png</PackageIconUrl>
     <PackageLicenseUrl>https://github.com/mjebrahimi/NopLocalization/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/mjebrahimi/NopLocalization</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mjebrahimi/NopLocalization</RepositoryUrl>
     <PackageReleaseNotes>https://github.com/mjebrahimi/NopLocalization/releases</PackageReleaseNotes>
     <RepositoryType>git</RepositoryType>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
