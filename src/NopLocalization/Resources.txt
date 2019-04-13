@@ -1,0 +1,118 @@
+﻿=====================================================================================================
+Resources to complete repository, tests, docs, samples, editorconfig, build.sh, build.ps1, build.cake
+=====================================================================================================
+
+https://github.com/AutoMapper/AutoMapper/blob/master/README.md
+https://github.com/AutoMapper/AutoMapper/blob/master/CONTRIBUTING.md
+
+https://github.com/bit-foundation/bit-framework/blob/master/README.md
+https://github.com/bit-foundation/bit-framework/tree/master/docs
+
+https://github.com/mehalick/Xaki/blob/master/README.md
+https://github.com/mehalick/Xaki/blob/master/README.md
+https://github.com/mehalick/Xaki/tree/master/tests/Xaki.Tests
+https://github.com/mehalick/OrangeJetpack.Localization/blob/master/README.md
+
+https://github.com/VahidN/EFSecondLevelCache.Core/blob/master/README.md
+
+https://github.com/khellang/Scrutor/blob/master/NuGet.Config
+https://github.com/khellang/Scrutor/blob/master/README.md
+
+https://editorconfig.org/
+https://github.com/AutoMapper/AutoMapper/blob/master/.editorconfig
+https://github.com/khellang/Scrutor/blob/master/.editorconfig
+https://github.com/mehalick/Xaki/blob/master/.editorconfig
+
+https://github.com/mehalick/Xaki/blob/master/build.sh
+https://github.com/mehalick/Xaki/blob/master/build.ps1
+https://github.com/mehalick/Xaki/blob/master/build.cake
+https://github.com/khellang/Scrutor/blob/master/Build.ps1
+
+Packaging Properties
+https://docs.microsoft.com/en-us/dotnet/core/tools/csproj#nuget-metadata-properties
+
+
+==========================================
+				Todo List
+==========================================
+
+1. Complete code summery document
+2.Versioning of this package
+3.Versioning of dependency packge. upgrade to 2.2 ?
+4.Build and test projects using Appveyor
+5.Build and test projects using Travis
+6.Add development package to MyGet if required
+
+
+
+==========================================
+				Features
+==========================================
+
+Add Routing Request Culture & Deep Dive
+------------------------------------------
+https://joonasw.net/view/aspnet-core-localization-deep-dive
+https://joonasw.net/view/aspnet-core-data-annotation-localization-shared-resx-file
+---------
+https://gunnarpeipman.com/aspnet/aspnet-core-simple-localization/
+https://dzone.com/articles/aspnet-core-simple-localization-and-language-based
+https://irensaltali.com/en/asp-net-core-mvc-localization-by-url-routedatarequestcultureprovider/
+http://www.ziyad.info/en/articles/10-Developing_Multicultural_Web_Application
+https://www.dotnetcurry.com/aspnet/1314/aspnet-core-globalization-localization
+https://dotnetcoretutorials.com/2017/06/22/request-culture-asp-net-core/
+http://omidid.com/topic/HowtoGlobalizationandlocalizationAspNetCoreapplication
+https://blog.tech-fellow.net/2018/01/27/dblocalizationprovider-in-asp-net-core/
+https://www.c-sharpcorner.com/article/internationalization-in-asp-net-core-mvc/
+https://www.infragistics.com/community/blogs/b/codefusion/posts/building-simple-multilingual-asp-net-core-website
+---------
+https://damienbod.com/2018/07/03/adding-localization-to-the-asp-net-core-identity-pages/
+https://damienbod.com/2017/11/01/shared-localization-in-asp-net-core-mvc/
+https://damienbod.com/2016/01/29/asp-net-core-1-0-using-sql-localization/
+https://damienbod.com/2015/10/24/using-dataannotations-and-localization-in-asp-net-5-mvc-6/
+https://damienbod.com/2015/10/21/asp-net-5-mvc-6-localization/
+---------
+https://andrewlock.net/adding-localisation-to-an-asp-net-core-application/
+https://andrewlock.net/localising-the-displayattribute-and-avoiding-magic-strings-in-asp-net-core/
+---------
+https://sbrakl.wordpress.com/2017/09/08/globalization-and-localization-in-asp-net-core-part-1/
+https://sbrakl.wordpress.com/2017/09/12/globalization-and-localization-in-asp-net-core-part-2/
+https://sbrakl.wordpress.com/2017/09/12/globalization-and-localization-in-asp-net-core-part-3/
+---------
+https://docs.microsoft.com/en-us/aspnet/core/fundamentals/localization?view=aspnetcore-2.2
+https://docs.microsoft.com/en-us/aspnet/core/fundamentals/portable-object-localization?view=aspnetcore-2.1
+
+
+Add JsonStringLocalizer and JsonHtmlLocalizer
+------------------------------------------
+https://stackoverflow.com/questions/43615912/asp-net-core-localization-with-json-files
+https://www.nuget.org/packages/Askmethat.Aspnet.JsonLocalizer/
+---------
+http://www.hishambinateya.com/localization-and-configuration-in-asp.net-core-2.0-part-2-json-localization-resources
+http://www.hishambinateya.com/localization-and-configuration-in-asp.net-core-2.0-part-1-json-request-culture-provider
+---------
+https://medium.com/wolox-driving-innovation/globalization-in-asp-net-core-3c70379d1e7f
+https://riptutorial.com/asp-net-core/example/9728/localization-using-json-language-resources
+https://ronaldwildenberg.com/asp-net-core-localization-with-json-resource-files/
+
+Shared Resource
+------------------------------------------
+https://medium.com/@flouss/asp-net-core-localization-one-resx-to-rule-them-all-de5c07692fa4
+https://stackoverflow.com/questions/43181904/how-to-get-the-resx-file-strings-in-asp-net-core/48133924
+https://adamstorr.azurewebsites.net/blog/resource-driven-messages-aspnetcore
+
+Other useful packages
+------------------------------------------
+https://github.com/hishamco/My.AspNetCore.Localization.Json
+https://github.com/alirezakhosravi/Localization
+------------------------------------------
+https://github.com/haestflod/asp.net-core-mvc-localized-routing
+https://github.com/abergs/LocalizedRoutes
+https://github.com/aspnet/Entropy/tree/master/samples
+https://github.com/yasinkuyu/Localization
+https://github.com/PankajRawat333/Globalization-and-localization-in-ASP.NET-Core
+---------
+https://github.com/RickStrahl/Westwind.Globalization
+https://www.west-wind.com/westwind.globalization/docs/_5460xtx95.htm
+---------
+https://github.com/damienbod/AspNetCoreLocalization
+https://github.com/gpeipman/AspNetCoreLocalization

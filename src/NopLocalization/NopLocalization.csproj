@@ -1,0 +1,62 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>7.3</LangVersion>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <AssemblyName>NopLocalization</AssemblyName>
+    <PackageId>NopLocalization</PackageId>
+    <Title>NopLocalization</Title>
+    <Product>NopLocalization</Product>
+    <Version>1.0.0</Version>
+    <PackageVersion>1.0.0</PackageVersion>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <Authors>Mohammad Javad Ebrahimi</Authors>
+    <Company>Mohammad Javad Ebrahimi</Company>
+    <Copyright>Copyright © Mohammad Javad Ebrahimi 2019</Copyright>
+    <Description>Simplified multi-language POCO localization for ASP.NET Core</Description>
+    <PackageTags>ASP.NET Core Localization NopLocalization Mvc AspNetMvc AspNetCore EntityFramework EntityFrameworkCore EF EfCore Globalization Multi-Language MultiLanguage</PackageTags>
+    <PackageIconUrl>httsp://github.com/mjebrahimi/NopLocalization/blob/master/docs/icon.png</PackageIconUrl>
+    <PackageLicenseUrl>https://github.com/mjebrahimi/NopLocalization/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/mjebrahimi/NopLocalization</PackageProjectUrl>
+    <PackageReleaseNotes>https://github.com/mjebrahimi/NopLocalization/releases</PackageReleaseNotes>
+    <RepositoryType>git</RepositoryType>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <!--<GeneratePackageOnBuild Condition="'$(Configuration)'=='Release'">true</GeneratePackageOnBuild>-->
+    <!--<DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>-->
+    <!--<AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>-->
+    <!--<AssemblyOriginatorKeyFile>..\..\AutoMapper.snk</AssemblyOriginatorKeyFile>-->
+    <!--<SignAssembly>true</SignAssembly>-->
+    <!--<PublicSign Condition=" '$(OS)' != 'Windows_NT' ">true</PublicSign>-->
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="LanguageResolvers\CookieLanguageResolver.cs" />
+    <Compile Remove="LanguageResolvers\DefaultLanguageResolver.cs" />
+    <Compile Remove="LanguageResolvers\RequestLanguageResolver.cs" />
+    <Compile Remove="Localization\EntityLocalization\EntityLocalizer.Optimized.cs" />
+    <Compile Remove="Utilities\ReaderWriteLockDisposable.cs" />
+    <Compile Remove="Utilities\ReaderWriteLockType.cs" />
+    <Compile Remove="Utilities\ReaderWriterLockSlimExtensions.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="CacheManager.Microsoft.Extensions.Caching.Memory" Version="1.2.0" />
+    <PackageReference Include="CacheManager.Serialization.ProtoBuf" Version="1.2.0" />
+    <PackageReference Include="CacheManager.StackExchange.Redis" Version="1.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Localization.Routing" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.ViewFeatures" Version="2.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="2.1.1" />
+    <!--<PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0-beta-62925-02" PrivateAssets="All" />-->
+    <!--<PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0-beta-63127-02">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>-->
+  </ItemGroup>
+  
+</Project>
