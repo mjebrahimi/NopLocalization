@@ -3,4 +3,4 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
 # NopLocalization
-Simplified multi-language POCO localization for ASP.NET Core
+Simplified multi-language POCO localization for ASP.NET Core inspired by [NopCommerce](https://github.com/nopSolutions/nopCommerce)
